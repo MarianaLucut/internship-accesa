@@ -1,0 +1,133 @@
+body{
+     margin:none;
+}
+
+header,
+nav,
+footer{
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    padding: 30px;
+}
+section{
+    padding: 45px;
+}
+
+footer{
+    padding: 25px;
+    bottom: 0;
+    left:0;
+}
+
+aside,
+section{
+    /* width: 25%; */
+    /* height: 60%; */
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+aside{
+    width: 20%;
+    padding: 20px;
+}
+
+section{
+    flex-direction: row;
+    width:80%;
+    /* height: 80%; */
+    background-color: lightpink; 
+    position: relative;
+    
+}
+main{
+    display: flex;
+}
+nav{
+    background-color: lightslategray;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    /* justify-content: space-around; */
+
+}
+
+a:visited
+{
+    color: chartreuse;
+}
+
+a:hover
+{
+    font-size: 150%;
+}
+
+h1,
+h2,
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#quizContiner{
+    
+}
+#questionsContiner{
+    /* height: 20%; */
+}
+#buttonsContiner{
+    background-color: blueviolet;
+    width:100%;
+    /* height: 100px; */
+    margin-top: 20.8%;
+}
+
+/* .buttons{
+    margin-top: 30%;
+  
+} */
+
+button{
+    display: inline-block;
+    border-radius: 10px;
+    background-color: gray;
+    border:none;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    /* margin: 5px; */
+    /* padding:10px; */
+}
+
+.contentDiv > button:first-child /*is this what i think it is?*/
+{
+    /* position: relative; */
+    float: left;
+    left:40px;
+    /* bottom: 40px; */
+}
+
+.contentDiv > button:last-child
+{
+    /* position: relative; */
+    float:right;
+    right:40px;
+    /* bottom: 40px;  */
+}
