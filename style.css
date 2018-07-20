@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+    text-align: center;
+    background: lightgray;
+    animation: headerAnim 2s ease-in-out alternate infinite;
+    letter-spacing: 10px;
+}
+
+@-webkit-keyframes headerAnim {
+    0% {letter-spacing: 10px}
+    100% {letter-spacing: 16px}
+}
+
+.leftSide {
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+    background: lightblue;
+}
