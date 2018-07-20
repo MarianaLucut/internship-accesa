@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header, footer, a {
+    color: rgb(240, 230, 230);
+}
+
+header {
+    height: 100px;
+    background: rgb(26, 78, 102);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    color: rgba(46, 43, 43, 0.445);
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    padding: 10px 86px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer a:hover, 
+header a:hover, 
+/* a.active,  */
+a i:hover {
+    color: rgb(192, 189, 189);
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    padding: 10px;
+    flex: 20%;
+    background: rgb(207, 201, 201);
+    /* height: 1000px; */
+}
+
+aside div {
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(37, 36, 36);
+}
+
+aside div:hover {
+    background: rgb(107, 105, 105);
+}
+
+aside div a {
+    color: rgb(37, 36, 36);
+}
+
+section {
+    flex: 70%;
+    padding: 10px;
+}
+
+
+
+#quest {
+    background: rgb(248, 245, 245);
+    height: 100%;
+}
+
+
+
+.send-results-btn{
+    color: #0099CC; 
+    background: transparent; 
+    border: 2px solid #0099CC;
+    border-radius: 6px; 
+    color: rgb(17, 16, 16);
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.send-results-btn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+#grid {
+    background: rgb(128, 128, 69);
+    height: 100%;
+
+}
+
+#gallery {
+    background: rgb(69, 69, 163);
+    height: 100%;
+
+}
+
+.tab-pane{
+    display:none;
+    padding:40px;
+    box-sizing: border-box;
+
+}
+
+
+.active{
+    display: block;
+}
+
+footer {
+    background: gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons a i {
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+@media (max-width:768px) {
+    main, nav {
+        flex-direction: column;
+    }
+    nav {
+        align-items: center;
+    }
+    aside {
+        width: 100%;
+    }
+}
