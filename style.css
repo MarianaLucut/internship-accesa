@@ -1,0 +1,150 @@
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    min-height: 100px;
+    background: lightseagreen;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0 auto;
+    color: white;
+}
+
+nav {
+    background: grey;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+}
+
+nav a:hover {
+    cursor: pointer;
+}
+
+.active-button {
+    background: lightgray;
+    color: black;
+}
+
+aside,
+.active {
+    padding: 20px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column; 
+}
+
+.tabs {
+    display: none;
+}
+
+aside {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+}
+
+aside a {
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+aside a:hover {
+    color: lightseagreen;;
+}
+
+aside a:nth-child(2),
+aside a:nth-child(3),
+aside a:nth-child(4),
+aside a:nth-child(5), 
+aside a:nth-child(6) {
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.active {
+    float: right;
+    display: flex;
+    width: 80%;
+    height: auto;
+    background: ghostwhite;
+}
+
+.button {
+    width: 70px;
+    padding: 8px;
+    margin: 5px;
+    font-size: 16px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;   
+}
+
+.submit:hover {
+    background: lightgreen;
+    cursor: pointer;
+    color: white;
+}
+
+.reset:hover {
+    background: lightsalmon;
+    cursor: pointer;
+    color: white
+}
+
+#buttons-div {
+    order: 20;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    background: lightgray;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.end a {
+    text-decoration: none;
+    color: black;
+}
+
+.end a:hover {
+    color: lightseagreen;;
+}
+
+.template {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
